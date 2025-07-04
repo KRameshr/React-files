@@ -1,0 +1,108 @@
+Roughting it is process of navigation from one page to another page with in a single page.
+with help of create a sap single page of application
+
+handing Naigation is called routing
+routing in single page and apps
+to reloade to next page is called routing
+react is called single page application
+npm i react-router-dom --save
+
+components of react router
+browser router is to top level componet call at the component
+routes switch in v5 It is a parent of the router It search in the child router to match the path with url
+route we define path and load component
+link for hyperlink
+child route are nested routes
+out use for nested routes or child routes lode
+
+parameter(params) : they are dynamic parts of the url that can chage and set to a specific value when a particular route is match
+params are passed through the URL.
+
+two type
+
+1.Route params
+we can pass the parameters through URl and get these parameter data
+with the help of useparams() hook in react router
+eg :
+http://localhost:3000/gallery/mens
+
+ <!-- <Route path="gallery/:cat" element={products/} -->
+
+gallery componet
+const {cat} = use params()
+
+this are called dynamic route immplementation
+2.query params (query string)
+they are a key-vlue pair added to the end of the URL to
+provide additional information to the server they are used to filter or sort data,pass
+?Key =value & key = value.
+
+ <Link to="gallery?ser = 123">Gallery</Link>
+ navigate("/services?search=" + serch);
+ useserchparams :to ger the query param value
+usenavigate() in react Router
+
+context or context APi it is used to manage global state,for this we dont need any third party library It i inbulid in our react library
+
+create content
+provider
+consumer
+first we create a content and that context to the parent componet with values and we can consome this context in any of the child and subchild of the paree
+anywhere
+when tkere is any chanhe in the context it automatic updated where it consume
+
+       or
+
+-> Routing : It is a process to navigate from one link to another within a single page.
+-> with the help of routing we can create SPA (Single Page Application)
+-> In React to perform routing we have React Router library (3rd party library)
+-> to install it
+npm i react-router-dom --save (V6)
+
+    -> Components of react router
+       -> BrowserRouter : Top level component . Call at the top of the application . Within it we can define all routing implementation.
+       -> Routes : Switch in V5. It is a parent of the Route. It search in the child Route to match the path with URL
+       -> Route : we define path and load component
+         eg:
+            <Routes>
+               <Route path="" element={<Home />}/>
+               <Route path="about" element={<About />}/>
+            </Routes>
+       -> Link :- for hyperlink
+          <Link to="/"> Home </Link>
+          <Link to="/about"> About Us </Link>
+       -> Outlet : used for nested routes or child routes
+
+        Task
+    Home  About Us   Services  Gallery  Contact Us
+    <section>
+      //load component when a url is match with the route
+    </section>
+
+    -> Child route or nested route
+       Outlet Component
+
+       10 minute break
+
+    -> Parameter (Params) : They are dynamic parts of the URL that can change and set to a specific value when a particular route is match.
+      Params are passed through the URL.
+        -> Route Params
+        -> Query Params
+      -> Route Params : We can pass the parameters through URl and get these parameter data with the help of useParams() hook in React Router.
+        eg:
+            http://localhost:3000/products/mens
+
+            <Route path="products/:cat" element={<Products />}/>
+            -> Products COmponent
+            const {cat}=useParams();
+    -> Query Parameter (query string): They are a key-value pair added to the end of the URL to provide additional information to the server. They are used to filter or sort data, pass search terms , or provide pagination information.
+       ?key=value&key=value..
+
+         <Link to="/gallery?ser=123"> Gallery </Link>
+         useSearchParams :to get the query param values
+    -> useNavigate() in React Router for navigation
+
+-> Context or Context API : It is used to manage global state.For this we dont need any 3rd party library. It is inbuild in our react library.
+-> 3 steps 1. create context 2. Provider 3. Consumer
+-> First we create a context and provide that context to the parent component with values and we can consume this context in any of the child and subchild of the parent component anywhere.
+-> When there is any change in the context it automatically updated where it is consume.
