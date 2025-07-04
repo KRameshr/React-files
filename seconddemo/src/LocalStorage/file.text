@@ -1,0 +1,7 @@
+localStorage it is locally date in wed browser it allow us to pressure ,session
+information or any other data has to be saved b/w page refreshes or even browser
+session
+
+> cookies :store small ampunt of data upto 4kb
+> localStorage :it is performent and sotore up 5mb of data
+> sessionStorage :it is temporary and store up 5mb of data
