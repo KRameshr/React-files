@@ -209,7 +209,7 @@ HOC is pattern function except components return enhance components
 
 ## 👨‍💻 Author
 
-**kRameshr** — Frontend Developer | MERN Stack Enthusiast
+**k Ramesh** — Frontend Developer | MERN Stack Enthusiast
 
 ---
 
