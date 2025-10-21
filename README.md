@@ -31,23 +31,34 @@ yarn create react-app myapp
 cd myapp
 yarn start
 ---
-⚙️ npm vs Yarn
 
 
-Both npm and Yarn are JavaScript package managers used to install and manage project dependencies.
+## ⚙️ npm vs Yarn
 
-Feature	npm	Yarn
-Full Form	Node Package Manager	Yet Another Resource Negotiator
-Installation	Comes with Node.js	Install via npm install -g yarn
-Speed	Slower dependency installation	Faster due to parallel downloads
-Lock File	package-lock.json	yarn.lock
-Offline Cache	Limited	Strong caching mechanism for offline installs
-CLI Commands	npm install, npm start, npm run build	yarn add, yarn start, yarn build
-Usage Recommendation	Default and widely used	Preferred for large-scale or team projects for consistency
+Both **npm** and **Yarn** are JavaScript package managers used to install and manage project dependencies.
+
+| Feature                | npm                              | Yarn                                  |
+|------------------------|---------------------------------|--------------------------------------|
+| **Full Form**           | Node Package Manager             | Yet Another Resource Negotiator       |
+| **Installation**        | Comes with Node.js               | Install via `npm install -g yarn`    |
+| **Speed**               | Slower dependency installation  | Faster due to parallel downloads     |
+| **Lock File**           | `package-lock.json`              | `yarn.lock`                           |
+| **Offline Cache**       | Limited                          | Strong caching mechanism for offline installs |
+| **CLI Commands**        | `npm install`, `npm start`, `npm run build` | `yarn add`, `yarn start`, `yarn build` |
+| **Usage Recommendation**| Default and widely used          | Preferred for large-scale or team projects |
+
+👉 **Tip:** Choose **one package manager per project** to avoid dependency conflicts.
 
 
 
-👉 Tip: Choose one package manager per project to avoid dependency conflicts.
+
+
+
+
+
+
+
+
 
 ## 🗂 Folder Structure
 
