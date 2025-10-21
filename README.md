@@ -79,7 +79,6 @@ myapp/
 ```
 
 ---
-
 ## ⚛️ Components
 
 Components are the **building blocks** of a React application.
