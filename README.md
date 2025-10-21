@@ -121,8 +121,9 @@ Hooks allow using state and lifecycle features in **functional components**.
 * **Lazy Loading:** Load components dynamically using `React.lazy` and `<Suspense>`.
 * **Axios:** For API calls – install via `npm i axios`.
 * **Bootstrap Integration:**
-
-  ```js
+   command  npm i bootstrap
+            Yarn  i bootstrap
+  ```import in  index.js  
   import "bootstrap/dist/css/bootstrap.min.css";
   import "bootstrap/dist/js/bootstrap.bundle";
   ```
