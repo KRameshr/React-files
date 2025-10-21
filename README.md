@@ -21,16 +21,16 @@ React is **open-source**, **cross-platform**, and follows a **component-based ar
 
 ## 🧩 Project Setup
 
-Using npm (default)
+### Using npm (default)
+```bash
 npx create-react-app myapp
 cd myapp
 npm start
 
-Using Yarn (alternative)
 yarn create react-app myapp
 cd myapp
 yarn start
----
+
 
 
 ## ⚙️ npm vs Yarn
