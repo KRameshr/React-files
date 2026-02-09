@@ -17,18 +17,27 @@ React
 
 -> Advantages
 
-  Performance
-     Reacts is Much More Performant then plain Js Dom manipulations as it only updates those nodes that need updating  
+1. Scalable
+ReactJS works well with all sizes of applications as it is used in some of the biggest web applications, such as Facebook, Instagram, etc.
 
-  Declarative
-    its is very easy to Read and share
+2. Compositional UI
+Using ReactJS, we can compose our user interface using small reusable components that can be modified or even replaced if needed.
 
-  Component-based
-    We Can develop application Where We divide the UI into Multiple Components(web page)
-    reused in other applications
- 
-  Data Binding
-   it allows us to combine data with markup and it take care of keeping the Ui in sync with the changes made in the data
+3. Portable
+React components are quite portable and can be moved from one project to another, as long as both projects use ReactJS.
+
+4. Performant
+Instead of a real browser DOM, ReactJS uses a virtual DOM that gives it a massive performance boost when it comes to DOM manipulation.
+
+
+ReactJS Disadvantages
+Learning Curve: ReactJS has a steep learning curve as it requires a big shift in the mental model of how we think about building user interfaces.
+
+Documentation: ReactJS rolls out updates and new features at a fast rate due to which the documentation might not always be present or good enough.
+
+JSX: To work with React, we need to learn how to use JSX, which can be a bit difficult as it makes us use HTML-like syntax in our JavaScript files.
+
+State Management: Depending on how our application is structured, managing the state and sharing it among components can be very difficult.
 
 What is DOM?
   DOM stands for document object model. It is a tree-like structure that is used to represent HTML documents 
