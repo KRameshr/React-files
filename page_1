@@ -1,0 +1,118 @@
+````
+
+React
+
+
+-> It is an Open-source, Cross platform JavaScript library which is used to develop UI(Front End)
+-> Maintain by Facebook(Meta) was Released in 2013
+   -> react is all about the Components
+   -> we can divide Our application into a small piracies of code with help of Component.
+-> It is used to develop SPA(Single Page Application)
+  SPA(Single Page Application)
+  performance is of web application is very past
+
+  example
+    Gmail
+    flip Card....etc
+
+-> Advantages
+
+  Performance
+     Reacts is Much More Performant then plain Js Dom manipulations as it only updates those nodes that need updating  
+
+  Declarative
+    its is very easy to Read and share
+
+  Component-based
+    We Can develop application Where We divide the UI into Multiple Components(web page)
+    reused in other applications
+ 
+  Data Binding
+   it allows us to combine data with markup and it take care of keeping the Ui in sync with the changes made in the data
+
+What is DOM?
+  DOM stands for document object model. It is a tree-like structure that is used to represent HTML documents 
+  DOM creates a hierarchical structure that can then be used by programming languages, like JavaScript, to interact with and manipulate
+
+example 
+  <!Doctype html>
+<html>
+    <head>
+        <title> DOm Example</title>
+    </head>
+    <body>
+        <button id="btn"> Add Task</button>
+        <ul id="list"></ul>
+        <script>
+            const btn=document.getElementById("btn");
+            const list=document.getElementById("list");
+            let index=1;
+            btn.addEventListener("click",()=>{
+                let element=document.createElement("li");
+                element.textContent=`Task ${index++}`;
+                list.appendChild(element);
+            })
+        </script>
+    </body>
+</html>
+
+ReactDOM:
+- Versatility of React: React can be used to build applications for multiple platforms such as web, mobile, or even virtual reality (VR).
+- Web Integration: To use React in a web application, we need it to be able to access and manipulate the DOM. For that, ReactDOM is used.
+- Technical Definition: ReactDOM is a package that contains DOM-specific methods used by React to enable itself to interact with the DOM.
+
+
+UI Development Without ReactJS
+
+  Building a user interface without ReactJS is possible, but for reasonably sized applications, it presents several key challenges.
+
+1. Decomposition
+
+   Without ReactJS: Developers must manually create HTML tags and use JavaScript to add event-handling code to wire everything up.
+   Using React: Developers can create small, isolated individual components, which are then composed together to create the entire UI.
+
+2. State Management
+   Definition: State refers to the data that an application stores in memory to be displayed later, such as previously sent messages in a    chat app.
+   The Challenge: Data often changes while being displayed (e.g., a total price in a shopping cart updating when an item is added).
+   React's Solution: React ensures that data and its display stay in sync. When data changes, all components displaying that data are automatically updated.
+
+3. Performance
+  The Challenge: Adding and removing elements directly from the DOM tree is a very intensive operation that can cause performance issues.
+  React's Solution: React solves this by using a Virtual DOM and updates components as effectively as possible.
+
+4. Debugging
+ Without ReactJS: Debugging the UI can be very challenging, even with standard browser inspect tools.
+ Using React: React developer tools (available as browser extensions) greatly simplify the process of debugging components.
+
+example 
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script src="./index.js"></script>
+  </body>
+</html>
+function render(children) {
+  const root = document.getElementById("root");
+  root.appendChild(children);
+  return root;
+}
+
+function h1(children) {
+  const element = document.createElement("h1");
+  root.appendChild(children);
+  return element;
+}
+
+function text(children) {
+  return document.createTextNode(children);
+}
+
+render(h1(text("Hello World")));
+
+````
