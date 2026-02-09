@@ -115,4 +115,81 @@ function text(children) {
 
 render(h1(text("Hello World")));
 
+E6 Features
+var global scope
+let and const is block scope
+
+function Car(){
+  let v = 10;
+  const y = 30;
+  var c = 20;
+console.log(c);
+}
+
+Car()
+arrow function
+class
+class Car{
+  constructor(){
+    this.speed = 100;
+  }
+  
+  acc(){
+    this.speed += 200;
+  }
+  speedCar(){
+   console.log(this.speed) 
+  }
+}
+
+const c = new Car();
+c.acc();
+c.speedCar();
+
+Destaturer
+
+
+const empdat = {
+  name: "Ramesh",
+  age :20,
+  
+}
+
+const {name, age} = empdat;
+
+console.log(name)
+console.log(empdat.age)
+
+
+callback / async ,await/ promise
+
+
+
+function getU(uid){
+  return new Promise((resolve,reject)=>{
+    setTimeout(function() {
+      console.log("User get from db");
+      resolve({User:"anuj"})
+    }, 2000);
+  })
+}
+
+
+function getC(user){
+  return new Promise((resolve,reject)=>{
+    setTimeout(function() {
+      console.log("User get cour from db");
+      resolve(["a","b"])
+    }, 2000);
+  })
+}
+
+async  function  details(){
+  let us = await getU(101)
+   let rs = await getC(us)
+  console.log(rs)
+}
+
+details()
+
 ````
