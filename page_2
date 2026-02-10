@@ -1,1 +1,39 @@
 ///
+
+
+react it is an opwn source cross platform js library which is use to develop user interface(Ui) (fornted end)
+
+view layer (presentation layer)
+it is maintained by facebook
+with the help of it we can develop SPA
+spa are those application which develop in only one page (index.html) , the content is update in a page withOUt refering
+
+feature of js
+component based architecture -componet are the core bulding block of react application 
+they are used for reusability with  the help of it we can divide our code into small pieces of code
+jsx javascript syntax extension where we can write html within javascript in rexat we have a babel transpile into jsx to js more read code
+virtual Dom  virtual represtation of real dom due to this the perforamance of the application is fast
+
+set up
+nodejs 
+npm create-react-app-appname
+npm start
+
+   -> Folder or directory structure
+      -> node_modules : core modules for a react application
+         -> public :- where we define our public files like assets and all
+            -> index.html : it is a main file which execute when react
+               application is running
+               <div id="root"></div>
+         -> src : it is a main folder of the application where we create all
+            component , services and all
+            App.js : default component
+         index.html it is main entery file
+
+hoew react application is boot or execute
+index.html
+<div id = "root"></div> ---> src/index.js --> it get the id root form index.html and load the app componet in the div id root.
+
+ 
+
+
