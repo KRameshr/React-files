@@ -89,6 +89,9 @@ state  are used to manage data within a component and we can change the state va
          componentDidUpdate(){}
       3. unmounting (when we leave from the component)
          componentWillUnmount(){}
- 
+
+propstypes 
+are should be installed
+ npm i prop-types --save
 
 
