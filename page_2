@@ -65,6 +65,20 @@ Home.jsx
   
   <h2> {this.title} </h2>
 ** in class component we access everything with this keyword
+
+Conditional Rendering
+-> ternary operator
+{conditiona ?  true : false}
+
+props (properties)  : props are used to pass data from  parent to child component and  props are read only..
+
+eg 
+app.js 
+obj = {nae}
+<About myObj={this.obj}>
+
+state  are used to manage data within a component and we can change the state values. 
+-> HOw we define state
  
 
 
