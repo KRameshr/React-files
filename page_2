@@ -38,6 +38,33 @@ index.html
             component , services and all
             App.js : default component
 
+ *** Components :- are the core building block of react application. they are used for
+      -> Types of components
+         -> Class Component
+            {
+               //js business logics
+               render(){
+                  return(
+                     <>
+                        //html code
+                     </>
+                  )
+               }
+            }
+         }
+         export default Home;
+
+-> extension
+ES7+ React/Redux/React-Native (dsznajder)
+rce : to create class component
+-> How dynamic data rendering
+{ } : expression
+eg:
+Home.jsx
+  title="My Home Page";
+  
+  <h2> {this.title} </h2>
+** in class component we access everything with this keyword
  
 
 
