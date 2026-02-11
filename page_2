@@ -34,6 +34,10 @@ hoew react application is boot or execute
 index.html
 <div id = "root"></div> ---> src/index.js --> it get the id root form index.html and load the app componet in the div id root.
 
+> src : it is a main folder of the application where we create all
+            component , services and all
+            App.js : default component
+
  
 
 
