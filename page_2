@@ -79,6 +79,16 @@ obj = {nae}
 
 state  are used to manage data within a component and we can change the state values. 
 -> HOw we define state
+
+
+-> Class Component Life Cycle methods :- every component have their own lifec
+   -> Phases of lifecycle
+      1. mounting (when a component is load)
+         componentDidMount(){}
+      2. updating (when their is any change in props and state )
+         componentDidUpdate(){}
+      3. unmounting (when we leave from the component)
+         componentWillUnmount(){}
  
 
 
