@@ -29,3 +29,50 @@ eg
  {count}
  update state
  setcount(count+1)
+
+hooks interoduce in react 16.8 version  and used only in function components 
+there are the function use to improve code organization and reusablility
+-> useState() ;- to mange state with in component and they are mutable, we can change the state value
+-> useEffect() to manage side effect it work as a life cycle method of the 
+function component for all phases like mounting, updating, and unmounting
+
+syntex 
+Mounting :  when a component is initilized or loaded 
+useEffect(()=> {
+// code
+},[]);
+
+updating :when there is any upate in dependecy (state or props) 
+useEffect(()=> {
+// code
+},[state, props]);
+
+unmouting when we leave from the component (clean up date)
+
+
+useEffect(()=> {
+// code
+return () => {
+// cleanup data 
+}
+},[ ]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
