@@ -1,0 +1,31 @@
+In react we have some rules to use css(jsx)
+
+inlile style
+<h2 style ={{}} -- </h2>
+
+npm i boostrap --save
+
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
+
+
+state are manage data components mutable 
+props are immutabel  ready 
+
+before 16.8 v we cannot manage state in a function componets.but in 16.8 version react introduced 
+hook and other feacture and form ther we can magnage state in function comp
+useState() hook to manage state 
+
+syntax :
+const [staename, handle] = useState(initialValue)
+statenaem =  name of the state
+handler = method to update state date 
+
+eg 
+ import{useState} from "react";
+ const [count,setcount] = useState(0)
+
+ readstae
+ {count}
+ update state
+ setcount(count+1)
