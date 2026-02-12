@@ -30,32 +30,34 @@ eg
  update state
  setcount(count+1)
 
-hooks interoduce in react 16.8 version  and used only in function components 
-there are the function use to improve code organization and reusablility
--> useState() ;- to mange state with in component and they are mutable, we can change the state value
--> useEffect() to manage side effect it work as a life cycle method of the 
-function component for all phases like mounting, updating, and unmounting
+-> Hooks : introduced in react 16.8 version and used only in function component.
+These are the functions use to improve code organization and reusability.
+  -> useState() :- to manage state within a component and they are mutable (we can
+  change the state value)
+    syntax :
+    const [statename,handler]=useState(initialValue);
+    eg:
+    import {useState} from 'react';
+    const [count,setCount]=useState();
 
-syntex 
-Mounting :  when a component is initilized or loaded 
-useEffect(()=> {
-// code
-},[]);
-
-updating :when there is any upate in dependecy (state or props) 
-useEffect(()=> {
-// code
-},[state, props]);
-
-unmouting when we leave from the component (clean up date)
-
-
-useEffect(()=> {
-// code
-return () => {
-// cleanup data 
-}
-},[ ]);
+-> useEffect() :- to manage side effects. It work as a lifecycle method of the
+function component for all phases like mounting , updating and unmounting.
+  syntax :
+    -> Mounting : when a component is initilized or loaded
+      useEffect(()=>{
+        //code
+      },[]);
+-> Updating : when there is any update in state or props
+    useEffect(()=>{
+      //code
+    },[state,props]);
+  -> Unmounting : when we leave from the component (cleanup date)
+    useEffect(()=>{
+      //code
+      return ()=>{
+        //cleanup data
+      }
+    },[]);
 
 
 
