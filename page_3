@@ -60,6 +60,10 @@ function component for all phases like mounting , updating and unmounting.
     },[]);
 
 
+sort command to carete function component
+
+Custom hook (crete our own hook) (reusability)
+hooks are start wiht prefix use
 
 
 
