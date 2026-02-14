@@ -66,6 +66,32 @@ Custom hook (crete our own hook) (reusability)
 hooks are start wiht prefix use
 
 
+Rules on hooks
+   Top Level calls
+    Call from React Function or call in custom Hook
+
+useRef
+ it allows to directly create a refrecnce to the DOM element inthe  function component if we change the value of useref it will not re-render the webpage as state it preserve values across various re-render it return a mutabel object
+this object have a current property 
+
+impport {useRef} from "react";
+const myRef = useRef();
+myRef.current.value
+ <input type="text" className="form-control" ref={inputRef} />
+
+UseMemo
+
+UseCallback
+
+UseReducer
+it si complex problem
+
+UseContext(state ManageMent)
+   in react context object is special object managed by react which can be used to share data between sibling components
+
+
+
+
 
 
 
