@@ -80,6 +80,10 @@ myRef.current.value
  <input type="text" className="form-control" ref={inputRef} />
 
 UseMemo
+is designed to optimize performance by memoizing expensive computation.
+react store the result of a  function call and reuse it when the dependency of that function haven't changed, rather than recalculating the value on every render,
+computation the values meams calculating the values
+
 
 UseCallback
 
