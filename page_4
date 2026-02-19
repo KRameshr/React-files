@@ -1,3 +1,39 @@
 // 
-controlled form are essial from react
- 
+1. controlled form are essial from react
+
+2. uncontrolled form are essial from react
+
+3. for fromhanding  and validation we have some 3rd party modules or library
+  --> formik and yup
+  https://formik.org/
+  
+  Formik is a small library that helps you with the 3 most annoying parts: 
+    -> Getting values in and out of form state
+    -> Validation and error messages
+    -> Handling form submission
+    -> useFormik() is a custom React hook that will return all Formik state and helpers directly
+        npm i formik --save
+       schema Validation with Yup
+        npm i yup --save
+
+localdata storage : 
+  It is a useful feature that allow developers to store and retrieve data locally within a user's web browser. It allow us to preserve user prefernces , session information or any other data that has to be saved between page refreshes or even browser session.
+  -> Cookies : store small amount of data upto 4k
+  -> Localstorage : It is permanent and store upto 5mb of data
+         -> How we set data
+        localStorage.setItem(key, value)
+
+        -> How we get data
+           localStorage.getItem(key)
+        
+        -> How we remove data
+           localStorage.removeItem(key)
+  -> Sessionstorage : It is temporary and store upto 5mb of data
+         -> How we set data
+        Sessionstorage.setItem(key, value)
+
+        -> How we get data
+           Sessionstorage.getItem(key)
+        
+        -> How we remove data
+           Sessionstorage.removeItem(key)
