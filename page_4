@@ -18,24 +18,21 @@
 
 localdata storage : 
   It is a useful feature that allow developers to store and retrieve data locally within a user's web browser. It allow us to preserve user prefernces , session information or any other data that has to be saved between page refreshes or even browser session.
-  -> Cookies : store small amount of data upto 4k
+  -> Cookies : store small amount of data upto 4kb data later is now 5mb data stored 
   -> Localstorage : It is permanent and store upto 5mb of data
-         -> How we set data
+        -> How we set data
         localStorage.setItem(key, value)
-
         -> How we get data
            localStorage.getItem(key)
-        
         -> How we remove data
            localStorage.removeItem(key)
+
   -> Sessionstorage : It is temporary and store upto 5mb of data
-         -> How we set data
+        -> How we set data
         Sessionstorage.setItem(key, value)
-
         -> How we get data
-           Sessionstorage.getItem(key)
-        
+        Sessionstorage.getItem(key)
         -> How we remove data
-           Sessionstorage.removeItem(key)
+        Sessionstorage.removeItem(key)
 
-1:37 
+
