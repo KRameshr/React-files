@@ -1,0 +1,21 @@
+routing  it is a process to navigate from one link to another with  in a single page
+-> with the help of routing we can create spa (single page Application)
+-> in react to perform routing we have react router library(3rd party library)
+-> to install it
+    npm i react-router-dom --save(V6)
+-> Components of react Router
+  -> Browser Router : it is top level component Call at the top of the application within it we can define all routing implementation
+  -> Routes : Switch is V5 it is a parent of the Route, It search in the child route to match the path with URl
+  -> Route : we define path and load Component
+   Eg 
+   <Routes>
+    <Route path="" element ={<Home/>}>
+    <Route path="about" element ={<About/>}>
+   <Routes/>
+  -> Link for hyperlink
+    <Link to="/"> Home</Link>
+    <Link to="/about"> About</Link>
+  -> OutLet : used for  nested routes or child routes
+
+  53
+  
