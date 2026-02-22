@@ -1,0 +1,49 @@
+
+stateManagemnet
+
+-> Local state
+    states are use in manupulate in with in component internally
+    We pass data internally with props to the child 
+
+-> Global State
+  it share data across all the components 
+  
+-> to deal with it has several 
+  lifting up the state  and Context
+    -> lifting up state
+    When we share some portion of a state with multiple components, we can use a technique 
+    it is the process of moving the shared portion of the state to a common parent element 
+
+      
+    
+    -> Context or ContextAPI
+      it is used to manage the global state. For this, we don't need any 3rd party library 
+
+      lifting up state have problem that is props drelling
+
+        data  -------------------
+            \                   |
+             \                  |
+             data               |       is called props drelling
+                 \              | 
+                  \             |
+                  data          | 
+                     \          | 
+                      \         |
+                      data      |    
+                         \      |
+                           \    | 
+                             data
+    
+      to avoid this props drelling  problem context are used 
+
+   -> 3 steps involed in context API
+    1. create Context
+    2. Provider
+    3. Consumer
+    -> first we create a context and provide that context to the prarent component with values
+       and we consume this context in any of the child and subchild of the parent component any where.
+    ->  when there is any change in the context it automatically updated where it is consume..  
+ 
+
+
