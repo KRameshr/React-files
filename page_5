@@ -17,5 +17,36 @@ routing  it is a process to navigate from one link to another with  in a single 
     <Link to="/about"> About</Link>
   -> OutLet : used for  nested routes or child routes
 
-  122
+task 
+Home
+About
+Services
+Gallery
+Contact Us
+
+     <main>
+        <Router>
+        <Navbar />
+        <section className="container">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/blog" element={<Blog />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/pricing" element={<Pricing />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+      </section>
+      </Router>
+    </main>
+
+-> OutLet : used for  nested routes or child routes
+     Child route or nested route
+
+205
+
+
+
+  
   
