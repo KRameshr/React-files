@@ -44,7 +44,20 @@ Contact Us
 -> OutLet : used for  nested routes or child routes
      Child route or nested route
 
-205
+-> Parameter (Params) : They are dynamic parts of the URL that can change and set to a
+specific value when a particular route is match.
+ Params are passed through the URL.
+   -> Route Params
+   -> Query Params
+-> Route Params : We can pass the parameters through URl and get these parameter data
+with the help of useParams() hook in React Router.
+   eg:
+      http://localhost:3000/products/mens
+
+      <Route path="products/:cat" element={<Products />}/>
+      -> Products COmponent
+      const {cat}=useParams();
+
 
 
 
