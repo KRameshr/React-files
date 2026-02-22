@@ -58,6 +58,14 @@ with the help of useParams() hook in React Router.
       -> Products COmponent
       const {cat}=useParams();
 
+-> Query Parameter (query string): They are a key-value pair added to the end of the URL to
+provide additional information to the server. They are used to filter or sort data, pass
+search terms, or provide pagination information.
+   ?key=value&key=value..
+
+   <Link to="/gallery?ser=123"> Gallery </Link>
+useserachPrams :get the query paramvalues
+-> useNavigate () in react ROuter ifor navigation
 
 
 
