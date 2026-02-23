@@ -46,7 +46,7 @@ stateManagemnet
         useContext — any child reads from the store directly
     -> first we create a context and provide that context to the prarent component with values
        and we consume this context in any of the child and subchild of the parent component any where.
-    ->  when there is any change in the context it automatically updated where it is consume..   215
+    ->  when there is any change in the context it automatically updated where it is consume..   311
 
  
 
