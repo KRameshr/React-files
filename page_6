@@ -39,11 +39,15 @@ stateManagemnet
 
    -> 3 steps involed in context API
     1. create Context
+        createContext — creates the global store
     2. Provider
+        Provider — wraps components and shares value
     3. Consumer
+        useContext — any child reads from the store directly
     -> first we create a context and provide that context to the prarent component with values
        and we consume this context in any of the child and subchild of the parent component any where.
-    ->  when there is any change in the context it automatically updated where it is consume..  
+    ->  when there is any change in the context it automatically updated where it is consume..   215
+
  
 
 
