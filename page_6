@@ -14,13 +14,6 @@ stateManagemnet
     When we share some portion of a state with multiple components, we can use a technique 
     it is the process of moving the shared portion of the state to a common parent element 
 
-      
-    
-    -> Context or ContextAPI
-      it is used to manage the global state. For this, we don't need any 3rd party library 
-
-      lifting up state have problem that is props drelling
-
         data  -------------------
             \                   |
              \                  |
@@ -34,6 +27,13 @@ stateManagemnet
                          \      |
                            \    | 
                              data
+      
+    
+    -> Context or ContextAPI
+      it is used to manage the global state. For this, we don't need any 3rd party library 
+
+      lifting up state have problem that is props drelling
+
     
       to avoid this props drelling  problem context are used 
 
@@ -44,10 +44,10 @@ stateManagemnet
         Provider — wraps components and shares value
     3. Consumer
         useContext — any child reads from the store directly
-    -> first we create a context and provide that context to the prarent component with values
-       and we consume this context in any of the child and subchild of the parent component any where.
-    ->  when there is any change in the context it automatically updated where it is consume..   311
-
- 
+        -> first we create a context and provide that context to the prarent component with values
+           and we consume this context in any of the child and subchild of the parent component any where.
+        ->  when there is any change in the context it automatically updated where it is consume..   
+    
+     
 
 
