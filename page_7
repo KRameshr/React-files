@@ -32,3 +32,16 @@ npm install @reduxjs/toolkit react-redux --save
 -> Provider : It provide store to the application
 -> useSelector : get state data from redux
 -> useDispatch : dispatch actions to the reducer to update state data
+
+
+steps  in redux
+--> create a store
+configureStore
+--> create a slice
+counterSlice
+reducer and action
+--> call reducer in the store
+--> provide store in index.js
+<Provider >
+--> useSelector() get data from state
+--> useDispatch() : send actions to the reducer to update state
