@@ -44,4 +44,4 @@ reducer and action
 --> provide store in index.js
 <Provider >
 --> useSelector() get data from state
---> useDispatch() : send actions to the reducer to update state  220
+--> useDispatch() : send actions to the reducer to update state  227
