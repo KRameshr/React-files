@@ -1,1 +1,34 @@
 //  Redux part
+
+-> ** Redux :- It is a state management library.It simply helps to manage the state of our application.
+-> It provides a predictable state container by connecting components to a centrailized store , and enabling efficient management of application state across components.
+-> There is a single store where we put our global state and that state data is available to the entire application
+-> In one application there is only 1 store.
+-> Advantages
+
+Centralized state management system (Store)
+Performance Optimizations
+Pure reducer function
+
+-> Store : Centralized state management system (only one store in a application)
+-> Reducer : Pure function which have state and action (multiple reducer)
+-> Action : It is an object where we have type and payload
+{type:'' , payload:''}
+-> How we use or implement redux
+-> Old Way
+redux with react redux
+-> New way
+redux toolkit with react redux
+
+-> Redux Toolkit (RTK)
+It is used for writing redux code but in more concise way.RTK abstracts the basic redux code and provides us boilerplates that enables us to write redux code in less lines of code.
+https://redux-toolkit.js.org/
+npm install @reduxjs/toolkit react-redux --save
+-> @reduxjs/toolkit
+-> configureStore() function : to create a store
+-> createSlice() : create action and reducer in a single function
+
+> react-redux
+-> Provider : It provide store to the application
+-> useSelector : get state data from redux
+-> useDispatch : dispatch actions to the reducer to update state data
