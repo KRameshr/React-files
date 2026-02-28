@@ -1,19 +1,29 @@
 //  Redux part
 
--> ** Redux :- It is a state management library.It simply helps to manage the state of our application.
--> It provides a predictable state container by connecting components to a centrailized store , and enabling efficient management of application state across components.
--> There is a single store where we put our global state and that state data is available to the entire application
--> In one application there is only 1 store.
+-> ** Redux:- It is a state management JS library. It simply helps to manage the state of our application.
+-> It provides a predictable state container by connecting components to a centralized store, and enabling efficient management of application state across components.
+-> There is a single store where we put our global state, and that state data is available to the entire application
+-> In one application, there is only 1 store.
+
 -> Advantages
+    Centralized state management system (Store)
+    Performance Optimizations
+    Pure reducer function
 
-Centralized state management system (Store)
-Performance Optimizations
-Pure reducer function
+-> principles of Redux
+    single source of truth
+    state is read-only
+    Changes are made with pure functions
 
+-> work of Redux
 -> Store : Centralized state management system (only one store in a application)
--> Reducer : Pure function which have state and action (multiple reducer)
+-> Reducer : Pure function which have state and action (multiple reducer) changes the state
 -> Action : It is an object where we have type and payload
 {type:'' , payload:''}
+-> Action Creators: are functions that take a few inputs as function arguments and return an action with type and payload
+-> Dispatch: a store in Redux has a method on it called dispatch, which is called with an action object when we wish to update the current state (triggering an event )
+-> Selectors  :  these are just plain functions that receive the state as an argument and extract specific pieces of information from the current state
+
 -> How we use or implement redux
 -> Old Way
 redux with react redux
@@ -44,4 +54,4 @@ reducer and action
 --> provide store in index.js
 <Provider >
 --> useSelector() get data from state
---> useDispatch() : send actions to the reducer to update state  227
+--> useDispatch() : send actions to the reducer to update state  
