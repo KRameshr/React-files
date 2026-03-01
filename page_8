@@ -1,0 +1,33 @@
+// testing 
+
+
+Testing there are different levels at which we can test the code there are also different kinds of tests we can write
+
+types of tests 
+    1. unit tests 
+    2. integrated tests
+    3. acceptance tests
+
+1. unit tests  Using jest
+     is the most common and also the fastest king if test  that we can write
+
+
+  file name is 
+     Cart.spec.js
+     
+     describe("" () => {
+     let cart =null;
+     beforeEach(() =>[
+     cart= new Cart()
+     });
+      it("" ,() => {
+        
+      });
+     });
+
+      Cart.js
+      export default class Cart {}
+
+     npm run test
+     
+
