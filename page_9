@@ -31,3 +31,48 @@ Follow up questions interviewers might ask:
 => Context API vs Redux, what would you choose and why?
 => How will you design error boundaries or fallback UI?
 => How will you make dynamic forms scalable and maintainable?
+
+
+Rest API Interview Question
+-----------------------------------------
+What is REST?
+What are the principles of REST architecture?
+What are HTTP methods?
+What is statelessness in REST?
+What is a resource in REST?
+What is URI vs URL?
+What is idempotency?
+Difference between PUT and PATCH?
+What is safe method in HTTP?
+What is RESTful API?
+What are HTTP status codes?
+What is content negotiation?
+What are request and response headers?
+What is HATEOAS?
+What is the difference between @PathVariable and @RequestParam?
+What is @RestController in Spring Boot?
+What is @RequestBody?
+What is @ResponseBody?
+What is the difference between @Controller and @RestController?
+How do you validate request data in Spring Boot?
+How do you handle exceptions globally in REST APIs?
+How do you secure REST APIs?
+What is JWT and how does it work?
+What is OAuth2?
+What is API versioning and how do you implement it?
+What is pagination in REST APIs?
+How do you handle large payloads?
+What is rate limiting?
+What is API throttling?
+What is CORS?
+🔹 Scenario-Based Questions
+How do you design a REST API for high scalability?
+How do you handle millions of requests in REST API?
+How do you reduce API latency?
+How do you ensure API security in production?
+How do you handle concurrent requests?
+How do you implement logging in REST APIs?
+How do you debug a slow API?
+How do you handle partial failures in microservices?
+How do you design fault-tolerant APIs?
+How do you optimize database calls in REST APIs?
