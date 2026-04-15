@@ -1,0 +1,33 @@
+ ReactJS Coding Interviews? 
+
+Start with these questions:
+=> Build a counter app with increment/decrement
+=> Create a form with validation
+=> Fetch data from an API and display it
+=> Build a search input with debounce
+=> Implement a todo list (add, delete, mark complete)
+=> Create a reusable modal component
+=> Build a dropdown with multi select
+=> Implement pagination for a list
+=> Create a custom hook (e.g. useFetch)
+=> Optimize a slow rendering component
+=> Implement infinite scrolling
+=> Manage global state in an app
+=> Handle API errors globally
+=> Build a dynamic form (fields based on config)
+
+Follow up questions interviewers might ask:
+=> How will you prevent unnecessary re renders?
+=> How will you manage form state and errors?
+=> How will you handle loading, error, and empty states?
+=> How will you optimize API calls?
+=> How will you structure state for scalability?
+=> How will you manage open/close state cleanly?
+=> How will you handle controlled vs uncontrolled behavior?
+=> How will you handle large datasets efficiently?
+=> How will you make custom hooks reusable and robust?
+=> When will you use React.memo, useMemo, useCallback?
+=> How will you detect scroll position and load more data?
+=> Context API vs Redux, what would you choose and why?
+=> How will you design error boundaries or fallback UI?
+=> How will you make dynamic forms scalable and maintainable?
